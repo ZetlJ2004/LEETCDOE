@@ -1,4 +1,4 @@
-package com.algorithm.DoubliePoint;
+package com.algorithm.DoubliePointList;
 
 class ListNode {
      int val;
@@ -8,7 +8,7 @@ class ListNode {
      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  }
 
-class Solution {
+class Solution1 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 虚拟头结点
         ListNode dummy = new ListNode(-1), p = dummy;

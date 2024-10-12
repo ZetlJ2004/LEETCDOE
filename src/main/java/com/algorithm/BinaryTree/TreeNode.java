@@ -1,6 +1,7 @@
 package com.algorithm.BinaryTree;
 
 public class TreeNode {
+    public TreeNode next;
     int val;
     TreeNode left;
     TreeNode right;
